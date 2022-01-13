@@ -51,6 +51,7 @@ if __name__ == "__main__":
         exit(0)
 
     elif sys.argv[1] == "XXX":
+        sys.argv.pop(1)
         from mytoolkit import XXX
 
         # TODO

@@ -1,4 +1,4 @@
-# py3-toolkit-starter.
+# py3-toolkit-starter 0.0.0.
 
 A simple template for creating a toolkit in Python, a program with subcommands,
 for example `mytoolkit XXX --in=infile.txt`.
