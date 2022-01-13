@@ -1,4 +1,4 @@
-# py3-toolkit-starter 0.0.0.
+# py3-toolkit-starter 0.0.1-dev0.
 
 A simple template for creating a toolkit in Python, a program with subcommands,
 for example `mytoolkit XXX --in=infile.txt`.
@@ -26,4 +26,4 @@ A few things:
     themselves are Python modules in the folder `./mytoolkit`. See
     `./mytoolkit/XXX.pm` for an example. You'll want to modify these names and
     the references inside.
-*   The variable `VERSION` is set to `0.0.0` in `./bin/mytoolkit`.
+*   The variable `VERSION` is set to `0.0.1-dev0` in `./bin/mytoolkit`.
