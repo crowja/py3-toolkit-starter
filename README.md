@@ -18,17 +18,13 @@ $ unzip py3-toolkit-starter-main.zip
 $ mv py3-toolkit-starter-main my-new-toolkit-name
 ```
 
-The toolkit's primary command is `bin/mytoolkit` and the associated subcommands
-are handled by modules, e.g., `mytoolkit/XXX.py`, which perform the bulk of the
-command line handling.
-
 A few things:
 
 *   `./bin/mytoolkit` is the main program that calls the tools. The tools
     themselves are Python modules in the folder `./mytoolkit`. See
     `./mytoolkit/XXX.pm` for an example. You'll want to modify these names and
     the references inside.
-*   The variable `VERSION` is set to `0.0.1-dev0` in `./bin/mytoolkit`.
 *   If you're going to do versioning with `bump2version`, move
-    `dot-bumpversion.cfg` to `.bumpversion.cfg` and edit it.
+    `dot-bumpversion.cfg` to `.bumpversion.cfg` and edit it. `VERSION` appears
+    in `README.md`, `setup.py`, and `bin/mytoolkit`.
 *   Replace this `README.md` file with something appropriate.
